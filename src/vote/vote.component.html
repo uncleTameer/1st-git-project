@@ -1,0 +1,6 @@
+<div>
+  <button (click)="voteA($event)">A Vote {{ votesA }}</button>
+  <button (click)="voteB($event)">B Vote{{ votesB }}</button>
+</div>
+
+<div *ngIf="showWinner">The Winner is {{ winner }}</div>

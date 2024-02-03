@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    padding: auto;
+}
+
+div{
+    flex-wrap: wrap;
+    text-align: center;
+}
